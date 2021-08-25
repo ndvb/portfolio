@@ -1,0 +1,17 @@
+@use 'foundations/fonts'; 
+
+body {
+  margin: 0;
+  font-size: 85%;
+  font-family: 'Neue Montreal';
+  font-weight: 300;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Neue Montreal';
+  font-weight: 300;
+  font-style: normal;
+}
