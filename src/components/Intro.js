@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../styles/components/Intro.scss'
 import portrait from '../assets/images/portrait.jpeg'
 
-export class Intro extends Component {
+class Intro extends Component {
     render() { 
         return (  
             <div className="intro">
@@ -19,7 +19,7 @@ export class Intro extends Component {
                     <div className="description">
                         <p>
                             Hi, my name is Nikolas, I'm a Full-Stack developer who's interested in all sorts of web technologies, 
-                            from the frontend to the backend. I'm a proud software engineer who loves designing and developing new and exciting 
+                            from frontend to backend. I'm a proud software engineer who loves designing and developing new and exciting 
                             software whether it's an application API, development tools, or adapting UI designs for web applications.
                         </p>
                     </div>
@@ -28,3 +28,5 @@ export class Intro extends Component {
         );
     }
 }
+ 
+export default Intro

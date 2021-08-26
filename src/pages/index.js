@@ -1,6 +1,6 @@
 import * as React from "react";
 import '../styles/index.scss';
-import {App} from '../components/App';
+import App from '../components/app';
 
 const IndexPage = () => (
   <App/>
