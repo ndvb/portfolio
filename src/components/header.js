@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/components/Header.scss';
 
-class Header extends Component {
+export class Header extends Component {
 
     render() {
       return (
@@ -19,5 +19,3 @@ class Header extends Component {
       );
     }
 }
-
-export default Header;

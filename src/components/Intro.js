@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../styles/components/Intro.scss'
 import portrait from '../assets/images/portrait.jpeg'
 
-class Intro extends Component {
+export class Intro extends Component {
     render() { 
         return (  
             <div className="intro">
@@ -28,5 +28,3 @@ class Intro extends Component {
         );
     }
 }
- 
-export default Intro;
