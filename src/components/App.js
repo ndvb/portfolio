@@ -1,5 +1,6 @@
 import React from 'react';
-import {Header, Intro} from '.';
+import Header from './Header';
+import Intro  from './Intro';
 import '../styles/components/App.scss';
 
 function App() {
