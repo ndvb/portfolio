@@ -1,0 +1,29 @@
+.intro {
+    margin: 20vh 0 10vh calc(100% / 12);
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 1;
+
+    .title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portrait {
+        display: flex;
+        .picture {
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+        .description {
+            padding: 0 0 0 5vw;
+            margin: auto;
+            p {
+                font-size: 0.5em;
+                font-weight: normal;
+            }
+        }
+    }
+}
