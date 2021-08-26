@@ -1,7 +1,6 @@
 import React from 'react';
 import {Header, Intro} from '.';
 import '../styles/components/App.scss';
-import data from '../data/data';
 
 function App() {
   return (
