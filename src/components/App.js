@@ -1,6 +1,5 @@
 import React from 'react';
-import Header from './Header';
-import Intro  from './Intro';
+import {Header, Intro, Projects} from '.';
 import '../styles/components/App.scss';
 
 function App() {
@@ -10,6 +9,8 @@ function App() {
       <main className="page">
         <div className="content">
           <Intro/>
+          <hr></hr>
+          <Projects/>
         </div>
       </main>
     </div>

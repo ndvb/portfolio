@@ -1,0 +1,38 @@
+.projects {
+    h2 {
+        font-size: 4em;
+    }
+
+    .project {
+        display: flex;
+        margin: 0 0 10vh 0;
+
+        h3 {
+            font-size: 1.3em;
+            min-width: 20vw;
+            margin: 0;
+        }
+    
+        .description {
+            font-size: 1.5em;
+            margin: 0;
+        }
+
+        .stack {
+            h4 {
+                font-size: 1.2em;
+            }
+
+            .svgs {
+                display: flex;
+                justify-content: space-around;
+
+                img {
+                    height: 5vh;
+                    margin: 0 1vw;
+                }
+            }
+        }
+    }
+
+}
