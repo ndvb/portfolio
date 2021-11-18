@@ -18,7 +18,19 @@
             margin: 0;
         }
 
+        .links {
+            margin: 1vh 0 1vh 0;
+            font-size: 1.5em;
+            a {
+                &:hover {
+                    text-decoration: underline;
+                }
+                text-decoration: none;
+            }
+        }
+
         .stack {
+            margin-top: 4vh;
             h4 {
                 font-size: 1.2em;
             }
