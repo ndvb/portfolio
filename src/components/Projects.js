@@ -34,7 +34,7 @@ class Projects extends Component {
                         servers on the plane and is installed via pacman packages. Notably, I worked on adding the games functionality to the frontend 
                         application, and I also worked on the backend software design and implementation of the in-flight shopping and Apple Pay features.
                     </p>
-                    <div className="links">
+                    <div className="button">
                         <a href="https://www.anuvu.com/our-portfolio/products#showcase-intro-airtime-portal" target="_blank">Find Out More</a>
                     </div>
                     <div className="stack">
@@ -56,7 +56,7 @@ class Projects extends Component {
                         and theming, Gulp to automate the build and theming process, and Cypress, Jasmine and Karma for testing. Tasks involved implementing 
                         designs, and ensuring that accessibility was in accordance with W3C accessibility guidelines.
                     </p>
-                    <div className="links">
+                    <div className="button">
                         <a href="https://entertainment.cathaypacific.com/" target="_blank">Visit the Website</a>
                     </div>
                     <div className="stack">
@@ -100,7 +100,7 @@ class Projects extends Component {
                         using HTML, CSS, JS and p5.js for the 3d album. (The link may take time to load since 
                         the heroku server may be asleep).
                     </p>
-                    <div className="links">
+                    <div className="button">
                         <a href="http://sequester.xyz/index.html" target="_blank">Visit the Website</a>
                     </div>
                     <div className="stack">

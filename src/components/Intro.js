@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/components/Intro.scss'
 import portrait from '../assets/images/portrait.jpeg'
+import cv from '../assets/cv_nikolas_dvb.pdf'
 
 class Intro extends Component {
     render() { 
@@ -22,6 +23,9 @@ class Intro extends Component {
                             from frontend to backend. I'm a proud software engineer who loves designing and developing new and exciting 
                             software whether it's application APIs, development tools, or adapting UI designs for web applications.
                         </p>
+                        <div className="button">
+                        <a href={cv} download>Download CV</a>
+                    </div>
                     </div>
                 </div>
             </div>

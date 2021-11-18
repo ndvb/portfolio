@@ -18,14 +18,22 @@
             margin: 0;
         }
 
-        .links {
-            margin: 1vh 0 1vh 0;
+        .button {
             font-size: 1.5em;
+            font-weight: normal;
+            margin-top: 3vh;
             a {
-                &:hover {
-                    text-decoration: underline;
-                }
+                padding: 0 1vh 0 1vh;
                 text-decoration: none;
+                color: black;
+                background-color: white;
+                border-style: solid;
+                border-width: 1px;
+
+                &:hover {
+                    color: white;
+                    background-color: black;
+                }
             }
         }
 

@@ -13,7 +13,7 @@ class Header extends Component {
             <span>Portfolio</span>
           </div>
           <div className="header-col right">
-            <span>Contact</span>
+            <a href="https://www.linkedin.com/in/nikdvb/" target="_blank">Contact</a>
           </div>
         </div>
       );

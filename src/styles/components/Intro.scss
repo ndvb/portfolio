@@ -12,6 +12,8 @@
     .portrait {
         display: flex;
         .picture {
+            display: flex;
+            align-items: center;
             img {
                 max-width: 100%;
                 height: auto;
@@ -24,6 +26,24 @@
                 font-size: 0.5em;
                 font-weight: normal;
                 line-height: 1.2;
+            }
+
+            .button {
+                font-size: 0.5em;
+                font-weight: normal;
+                a {
+                    padding: 0 2vh 0 2vh;
+                    text-decoration: none;
+                    color: white;
+                    background-color: black;
+
+                    &:hover {
+                        color: black;
+                        background-color: white;
+                        border-style: solid;
+                        border-width: 1px;
+                    }
+                }
             }
         }
     }

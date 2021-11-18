@@ -9,11 +9,13 @@
     top: 0px;
 
 
-    .header-col {
+    .header-col, a {
         margin: 0;
         font-size: 1em;
         font-weight: normal;
         width: calc(100% /3);
+        text-decoration: none;
+        color: black;
     }
 
     .center {
