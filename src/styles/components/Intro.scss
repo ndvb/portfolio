@@ -7,9 +7,13 @@
     font-weight: bold;
     line-height: 1;
 
+    h2 {
+        font-size: 1.3em;
+    }
+
     @include medium {
         h2 {
-            font-size: 1em;
+            font-size: 0.8em;
         }
     }
 
@@ -58,11 +62,23 @@
             display: flex;
             align-items: center;
             width: 160%;
-            img {
-                @include animate(fadeInUp, 2s, ease-in-out, 1);
+            max-width: 420px;
+            min-width: 250px;
+            overflow: hidden;
+            @include animate(fadeInUp, 2s, ease-in-out, 1);
 
+
+            @include medium {
+                min-width: 100px;
+            }
+
+            @include small {
+                max-width: 50px;
+            }
+            img {
                 max-width: 100%;
                 height: auto;
+                overflow: hidden;
 
                 @include small {
                     max-width: 50%;
