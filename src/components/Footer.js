@@ -15,7 +15,7 @@ class Footer extends Component {
         <div className="footer">
             <hr/>
             <button onClick={this.scrollToTop}>
-                Back to Top
+                <a>Back to Top</a>
             </button>
         </div>
       );

@@ -8,10 +8,18 @@ class Intro extends Component {
         return (  
             <div className="intro">
                 <h2 className="title">
-                    <span>Full-Stack</span>
-                    <span>Developer</span>
-                    <span>Based in Montreal,</span>
-                    <span>Canada</span>
+                    <div>
+                        <p className="slide-up">Full-Stack</p>
+                    </div>
+                    <div>
+                        <p className="slide-up">Developer</p>
+                    </div>
+                    <div>
+                        <p className="slide-up">Based in Montreal,</p>
+                    </div>
+                    <div>
+                        <p className="slide-up">Canada</p>
+                    </div>
                 </h2>
                 <div className="portrait">
                     <div className="picture">

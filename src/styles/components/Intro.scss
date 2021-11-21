@@ -1,4 +1,5 @@
 @import "./breakpoints";
+@import "./animation";
 
 .intro {
     margin: 20vh 0 10vh calc(100% / 12);
@@ -22,6 +23,28 @@
     .title {
         display: flex;
         flex-direction: column;
+
+        div {
+            overflow: hidden;
+            z-index: -1;
+
+            @for $i from 2 through 4 {
+                &:nth-child(#{$i}) {
+                    p {
+                        animation-delay: $i * 0.025s
+                    }
+                }
+            }
+
+
+            p {
+                width: max-content;
+                white-space: nowrap;
+                margin: 0;
+                @include animate(slide-up, 0.9s, cubic-bezier(0.65, 0, 0.35, 1), both);
+            }
+        }
+
     }
 
     .portrait {
@@ -34,7 +57,10 @@
         .picture {
             display: flex;
             align-items: center;
+            width: 160%;
             img {
+                @include animate(fadeInUp, 2s, ease-in-out, 1);
+
                 max-width: 100%;
                 height: auto;
 
@@ -47,6 +73,7 @@
             padding: 0 0 0 5vw;
             margin: auto;
             p {
+                @include animate(slide-up, 0.9s, cubic-bezier(0.65, 0, 0.35, 1), both);
                 font-size: 0.5em;
                 font-weight: normal;
                 line-height: 1.2;
@@ -68,6 +95,7 @@
             .button {
                 font-size: 0.5em;
                 font-weight: normal;
+                @include animate(fadeInUp, 2s, ease-in-out, 1);
 
                 @include medium {
                     font-size: 0.3em;
