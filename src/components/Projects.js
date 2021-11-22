@@ -31,8 +31,8 @@ class Projects extends Component {
                         AngularJs as the main framework, RxJS to fetch data from our backend API, Sass for styling and theming, Cypress for testing
                         , and Gulp and Jenkins for build and testing automation. For the backend, there are two Falcon python APIs, the on-ground API, 
                         which is hosted on Ubuntu servers and deployed using Docker and Ansible, and there is the in-flight API, which lives on Archlinux 
-                        servers on the plane and is installed via pacman packages. Notably, I worked on adding the games functionality to the frontend 
-                        application, and I also worked on the backend software design and implementation of the in-flight shopping and Apple Pay features.
+                        servers on the plane. Notably, I worked on adding the games functionality to the frontend application, and I also worked on the 
+                        backend software design and implementation of the in-flight shopping and Apple Pay features.
                     </p>
                     <div className="button">
                         <a href="https://www.anuvu.com/our-portfolio/products#showcase-intro-airtime-portal" target="_blank">Find Out More</a>

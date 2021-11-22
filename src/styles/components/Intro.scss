@@ -74,6 +74,7 @@
 
             @include small {
                 max-width: 50px;
+                @include animate(fade-in, 2s, ease-in-out, 1);
             }
             img {
                 max-width: 100%;
@@ -105,6 +106,7 @@
                 padding: 0;
                 p {
                     font-size: 0.2em;
+                    @include animate(fade-in, 2s, cubic-bezier(0.65, 0, 0.35, 1), both);
                 }
             }
 
@@ -119,6 +121,7 @@
 
                 @include small {
                     font-size: 0.2em;
+                    @include animate(fade-in, 2s, ease-in-out, 1);
                 }
 
                 a {
