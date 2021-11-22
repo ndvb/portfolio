@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import '../styles/components/Projects.scss';
-import mongodbLogo from '../assets/images/mongodb.svg';
-import reactjsLogo from '../assets/images/reactjs-icon.svg';
 import sassLogo from '../assets/images/sass.svg';
 import phonegapLogo from '../assets/images/phonegap.svg';
 import angularLogo from '../assets/images/angular.svg';
@@ -14,6 +12,18 @@ import htmlLogo from '../assets/images/html.svg';
 import cssLogo from '../assets/images/css.svg';
 import jsLogo from '../assets/images/jslogo.svg';
 import p5jsLogo from '../assets/images/p5js.svg';
+import cypressLogo from '../assets/images/cypress.svg';
+import rxjsLogo from '../assets/images/rxjs.svg';
+import jenkinsLogo from '../assets/images/jenkins.svg';
+import gulpLogo from '../assets/images/gulp.svg';
+import falconLogo from '../assets/images/falcon.svg';
+import pythonLogo from '../assets/images/python.svg';
+import dockerLogo from '../assets/images/docker.svg';
+import ansibleLogo from '../assets/images/ansible.svg';
+import archlinuxLogo from '../assets/images/arch-linux.svg';
+import karmaLogo from '../assets/images/karma.svg';
+import jasmineLogo from '../assets/images/jasmine.svg';
+import lessLogo from '../assets/images/less.svg';
 
 
 class Projects extends Component {
@@ -39,10 +49,39 @@ class Projects extends Component {
                     </div>
                     <div className="stack">
                         <div className="svgs">
-                            <img src={angularLogo}/>
-                            <img src={reactjsLogo}/>
-                            <img src={sassLogo}/>
-                            <img src={mongodbLogo}/>
+                            <a href="https://angularjs.org/" target="_blank">
+                                <img src={angularLogo}/>
+                            </a>
+                            <a href="https://rxjs.dev/guide/overview" target="_blank">
+                                <img src={rxjsLogo}/>
+                            </a>
+                            <a href="https://sass-lang.com/" target="_blank">
+                                <img src={sassLogo}/>
+                            </a>
+                            <a href="https://www.cypress.io/" target="_blank">
+                                <img src={cypressLogo}/>
+                            </a>
+                            <a href="https://gulpjs.com/" target="_blank">
+                                <img src={gulpLogo}/>
+                            </a>
+                            <a href="https://www.jenkins.io/" target="_blank">
+                                <img src={jenkinsLogo}/>
+                            </a>
+                            <a href="https://falcon.readthedocs.io/en/stable/" target="_blank">
+                                <img src={falconLogo}/>
+                            </a>
+                            <a href="https://www.python.org/" target="_blank">
+                                <img src={pythonLogo}/>
+                            </a>
+                            <a href="https://www.docker.com/" target="_blank">
+                                <img src={dockerLogo}/>
+                            </a>
+                            <a href="https://www.ansible.com/" target="_blank">
+                                <img src={ansibleLogo}/>
+                            </a>
+                            <a href="https://archlinux.org/" target="_blank">
+                                <img src={archlinuxLogo}/>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -61,10 +100,27 @@ class Projects extends Component {
                     </div>
                     <div className="stack">
                         <div className="svgs">
-                            <img src={angularLogo}/>
-                            <img src={reactjsLogo}/>
-                            <img src={sassLogo}/>
-                            <img src={mongodbLogo}/>
+                            <a href="https://angularjs.org/" target="_blank">
+                                <img src={angularLogo}/>
+                            </a>
+                            <a href="https://rxjs.dev/guide/overview" target="_blank">
+                                <img src={rxjsLogo}/>
+                            </a>
+                            <a href="https://lesscss.org/" target="_blank">
+                                <img src={lessLogo}/>
+                            </a>
+                            <a href="https://gulpjs.com/" target="_blank">
+                                <img src={gulpLogo}/>
+                            </a>
+                            <a href="https://www.cypress.io/" target="_blank">
+                                <img src={cypressLogo}/>
+                            </a>
+                            <a href="https://jasmine.github.io/" target="_blank">
+                                <img src={jasmineLogo}/>
+                            </a>
+                            <a href="https://karma-runner.github.io/latest/index.html" target="_blank">
+                                <img src={karmaLogo}/>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -81,12 +137,24 @@ class Projects extends Component {
                     </p>
                     <div className="stack">
                         <div className="svgs">
-                            <img src={phonegapLogo}/>
-                            <img src={angularLogo}/>
-                            <img src={nodeLogo}/>
-                            <img src={expressLogo}/>
-                            <img src={mysqlLogo}/>
-                            <img src={spotifyLogo}/>
+                            <a href="https://github.com/phonegap" target="_blank">
+                                <img src={phonegapLogo}/>
+                            </a>
+                            <a href="https://angularjs.org/" target="_blank">
+                                <img src={angularLogo}/>
+                            </a>
+                            <a href="https://nodejs.org/en/" target="_blank">
+                                <img src={nodeLogo}/>
+                            </a>
+                            <a href="https://expressjs.com/" target="_blank">
+                                <img src={expressLogo}/>
+                            </a>
+                            <a href="https://www.mysql.com/" target="_blank">
+                                <img src={mysqlLogo}/>
+                            </a>
+                            <a href="https://developer.spotify.com/" target="_blank">
+                                <img src={spotifyLogo}/>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -105,11 +173,21 @@ class Projects extends Component {
                     </div>
                     <div className="stack">
                         <div className="svgs">
-                            <img src={herokuLogo}/>
-                            <img src={htmlLogo}/>
-                            <img src={cssLogo}/>
-                            <img src={jsLogo}/>
-                            <img src={p5jsLogo}/>
+                            <a href="https://www.heroku.com/" target="_blank">
+                                <img src={herokuLogo}/>
+                            </a>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+                                <img src={htmlLogo}/>
+                            </a>
+                            <a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank">
+                                <img src={cssLogo}/>
+                            </a>
+                            <a href="https://www.javascript.com/" target="_blank">
+                                <img src={jsLogo}/>
+                            </a>
+                            <a href="https://p5js.org/" target="_blank">
+                                <img src={p5jsLogo}/>
+                            </a>
                         </div>
                     </div>
                 </div>
